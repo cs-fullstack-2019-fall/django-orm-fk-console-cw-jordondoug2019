@@ -24,3 +24,15 @@ From the shell copy the commands your entered in the shell to create the instanc
 
 Copy the shell commands you used here!
 
+(InteractiveConsole)
+>>> from gradedcw_app.models import Author,Post
+>>> Author.objects.all()
+<QuerySet [<Author: Tommy Pickles>]>
+>>> Post.objects.all()
+<QuerySet [<Post: Post object (1)>, <Post: Post object (2)>, <Post: Post object (3)>]>
+>>> new_post=Post("New life, Trying it out")
+>>> new_post
+<Post: Post object (New life, Trying it out)>
+>>> 
+
+
